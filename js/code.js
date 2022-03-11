@@ -303,7 +303,7 @@ function read_money() {
         }
     } else {
         number_temp = "Vượt quá giới hạn đọc số!";
-        return "Vượt quá giới hạn đọc số!"
+        //return "Vượt quá giới hạn đọc số!"
     }
     document.querySelector('#doc_so').innerHTML = number_temp;
     return number_temp;
